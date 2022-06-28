@@ -1,0 +1,147 @@
+.hero {
+  background-image: url("../../img/hero-phones-desktop.png"),url("../../img/hero-bg-desktop.png");
+
+  background-repeat: no-repeat;
+  background-position: top right,top right;
+
+}
+
+.hero__inner {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+.hero__content {
+  max-width: 447px;
+}
+
+.hero__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2d314d;
+}
+
+.hero__text {
+  margin: 0;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: $color;
+}
+
+@media screen and (max-width: 1250px) {
+  .hero {
+    background-image: url("../../img/hero-phones-desktop.png"),url("../../img/hero-bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top right,top right;
+  }
+
+  .hero__inner {
+    padding-top: 500px;
+    padding-bottom: 170px;
+  }
+
+  .hero__text {
+    text-align: center;
+  }
+
+  .hero__heading {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  .invite-button1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .hero__inner {
+    padding-top: 700px;
+    padding-bottom: 170px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__inner {
+    padding-top: 850px;
+    padding-bottom: 170px;
+  }
+
+  .hero {
+    background-image: url("../../img/hero-phones-desktop.png"),url("../../img/hero-bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top right,top right;
+    background-size: 600px 850px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero__inner {
+    padding-top: 700px;
+    padding-bottom: 170px;
+  }
+
+  .hero {
+    background-image: url("../../img/hero-phones-desktop.png"),url("../../img/hero-bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top right,top right;
+    background-size: 500px 700px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero__inner {
+    padding-top: 600px;
+    padding-bottom: 170px;
+  }
+
+  .hero {
+    background-image: url("../../img/hero-phones-desktop.png"),url("../../img/hero-bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top right,top right;
+    background-size: 400px 600px;
+  }
+
+  .hero__heading{  
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+  }
+
+  .hero__text{
+    font-family: 'PublicSans';
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+    color: #9597A5;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .hero__inner {
+    padding-top: 490px;
+    padding-bottom: 10px;
+  }
+
+  .hero {
+    background-image: url("../../img/hero-phones-desktop.png"),url("../../img/hero-bg-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top right,top right;
+    background-size: 330px 500px;
+  }
+}
